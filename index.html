@@ -4400,7 +4400,7 @@ function initGame() {
 /* ===== ui_auth.js — đăng nhập Google (Firebase Auth) + bảng xếp hạng toàn cầu (Firestore) =====
    Khách chưa đăng nhập vẫn chơi bình thường (kết quả lưu trên máy). Đăng nhập → kết quả tốt nhất mỗi khối được ghi lên bảng toàn cầu.
    Cấu hình Firebase là định danh công khai (không phải bí mật); bảo mật nằm ở firestore.rules + danh sách tên miền được phép. */
-var FIREBASE_CONFIG = null;
+var FIREBASE_CONFIG = { apiKey: "AIzaSyAVLNV65w1oPJ64pGSWMZhsSyQu2M_uStg", authDomain: "rubik-77c6d.firebaseapp.com", projectId: "rubik-77c6d", appId: "1:1094036581751:web:28d816faa78547cd2e8572" };
 var ADMIN_EMAIL = 'hpmainho20@gmail.com';   // tài khoản chủ trang: được xóa mục vi phạm (được ép bởi firestore.rules, không phải bởi giao diện)
 var FB_VERSION = '10.14.1';
 
